@@ -1,0 +1,202 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+}
+#Title {
+  .Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 5%;
+    color: var( --text_primary);
+    .Intro_name {
+      @include respond(tablet) {
+        font-size: 50px;
+      }
+      @include respond(phone) {
+        margin-top: -20px;
+        font-size: 30px;
+      }
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 60px;
+      margin: 10px;
+    }
+  }
+  .Intro_two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    color: var(--text_primary);
+    .Intro_name_two {
+      @include respond(tablet) {
+        font-size: 29px;
+        margin-left: 15%;
+      }
+      @include respond(phone) {
+        font-size: 18px;
+        margin-left: 20%;
+      }
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 35px;
+    }
+  }
+  .Intro_three {
+    max-width: 80%;
+    margin: 0 auto;
+    .Intro_name_three {
+      @include respond(tablet) {
+        font-size: 20px;
+      }
+      @include respond(phone) {
+        font-size: medium;
+      }
+      color: var(--text_nav);
+      font-family: Kumbh Sans;
+      font-size: 1.4rem;
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: 0.48px;
+      font-size: larger;
+    }
+  }
+  #Title_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    span {
+      @include respond(phone) {
+        font-size: 30px;
+      }
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text_title);
+      font-size: 40px;
+      font-weight: 600;
+    }
+  }
+  .About {
+    width: 80vw;
+    display: flex;
+    margin-left: 10vw;
+    .img_Avt {
+      max-width: 40%;
+      margin-top: 50px;
+      width: 280px;
+      height: 280px;
+      border: 1px solid var(--bg_card);
+      box-shadow:var(--box_shadow_card) ;
+      @include respond(phone) {
+        width: 180px;
+        height: 150px;
+        max-width: none;
+      }
+      .img_Avata {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .titleAbout {
+      max-width: 60%;
+      margin: 50px 0 0 0;
+      margin-left: 6%;
+      color: var(--text_primary) ;
+      .title_About {
+        @include respond(phone) {
+          font-size: 0.9rem;
+        }
+        word-break: break-word;
+        font-size: 1.6rem;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    }
+    .Experience {
+      display: flex;
+      justify-content: space-around;
+      margin: 60px 0 0 15px;
+      width: 100%;
+      @include respond(phone) {
+        position: relative;
+        left: -75px;
+      }
+      .Year_Experience span,
+      .Complate_Potorasin span,
+      .Year_Achieved span {
+        @include respond(phone) {
+          font-size: xx-large;
+        }
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+      }
+      .text {
+        margin: 15px;
+        .text1 {
+          text-align: center;
+        }
+      }
+      .Year_Experience p,
+      .Complate_Potorasin p,
+      .Year_Achieved p {
+        @include respond(phone) {
+          font-size: medium;
+        }
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #6b6b6b;
+      }
+    }
+  }
+  .downloadCV {
+    @include respond(phone) {
+      position: relative;
+      left: -75px;
+      button {
+        font-size: small;
+      }
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 35px;
+    #downloadCV {
+      cursor: pointer;
+      background-color: #fc8c36;
+      border-radius: 4px;
+      padding: 10px 15px;
+      color: #ffffff;
+      border: none;
+      #download_icon{
+        margin-left: 10px;
+      }
+    }
+    #downloadCV:hover {
+      border: 2px solid #fc974a;
+      background-color: #f89b53;
+      color: #6b6b6b;
+    }
+  }
+}

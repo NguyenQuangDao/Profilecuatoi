@@ -1,0 +1,17 @@
+#Epilogue {
+  margin-top: 150px;
+  width: 100vw;
+  height: 150px;
+  background-color: var(--bg_Epilogue);
+  border-radius: 120px 120px 0px 0px;
+  color: var(--text_primary);
+  .content_Epilogue {
+    padding-top: 40px;
+    width: 100vw;
+    text-align: center;
+    span {
+      margin-top: 40px;
+      font-size: 35px;
+    }
+  }
+}

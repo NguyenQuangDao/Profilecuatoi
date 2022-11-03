@@ -1,0 +1,119 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+}
+#Introduce {
+  #button_bar {
+    display: flex;
+    margin-top: 70px;
+    .openTaskBar {
+      cursor: pointer;
+      display: block;
+      position: fixed;
+      z-index: 100;
+      width: 40px;
+      height: 80px;
+      background-color: var(--bg_introduce);
+      border-radius: 0 40% 40% 0;
+      @include respond(phone) {
+        width: 30px;
+        height: 50px;
+        border-radius: 0 40% 40% 0;
+      }
+      .Arrow {
+        @include respond(phone) {
+          margin-top: -6px;
+          margin-left: 10px;
+        }
+        margin-top: 25px;
+        margin-left: 10px;
+        span {
+          display: block;
+          background-color: #b2b2b2;
+          width: 18px;
+          height: 5px;
+          margin-top: 18px;
+        }
+
+        .Right_Arrow,
+        .Right_Arrow1,
+        .Left_Arrow,
+        .Left_Arrow1 {
+          transition: 0.3s;
+          user-select: none;
+        }
+        .Right_Arrow {
+          transform: rotate(45deg) translate(14px, 0) translateX(-10px)
+            translateY(5px);
+        }
+        .Right_Arrow1 {
+          transform: rotate(-45deg) translate(14px, 0) translateX(-10px)
+            translateY(-5px);
+        }
+        .Left_Arrow {
+          transform: rotate(135deg) translate(9px, 0);
+        }
+        .Left_Arrow1 {
+          transform: rotate(-135deg) translate(9px, 0);
+        }
+      }
+    }
+  }
+  .Options_bar {
+    width: 50px;
+    height: 250px;
+    background-color:var(--bg_introduce);
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    z-index: 100;
+    position: fixed;
+    top: 165px;
+    margin-left: 1%;
+    @include respond(phone) {
+      top: 135px;
+      margin-left: 2%;
+    }
+    .Icon_img {
+      display: block;
+      border-radius: 8px;
+      padding: 20px 10px 0px 10px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      z-index: 1;
+      transition: transform 0.2s;
+    }
+    #instaGram {
+      color: #ef4f6d;
+    }
+    #gitHub {
+      color: black;
+    }
+    a:nth-child(n):hover .Icon_img {
+      transform: scale(1.5);
+    }
+  }
+  .Options_bar_active {
+    transition: 400ms ease;
+    position: fixed;
+    left: 0%;
+  }
+  .Options_bar_inActive {
+    transition: 400ms ease;
+    position: fixed;
+    left: -100%;
+  }
+}

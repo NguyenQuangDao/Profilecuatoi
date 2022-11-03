@@ -1,0 +1,95 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+}
+#Contactme {
+  margin-top: 100px;
+  .title_Contactme {
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 40px;
+    color: var(--text_title);
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  .address_Contactme {
+    position: absolute;
+    margin: 120px 0 0 50px;
+    color: #bdb76b;
+    z-index: 10;
+    @include respond(phone) {
+      margin: 50px 0 0 20px;
+    }
+    .icon_Contactme {
+      font-size: 30px;
+      margin-right: 20px;
+      @include respond(phone) {
+        font-size: 25px;
+        margin-right: 10px;
+      }
+    }
+    .address {
+      margin: 15px;
+    }
+    span {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      @include respond(phone) {
+        font-size: 17px;
+      }
+    }
+  }
+  .logo_Contactme {
+    position: absolute;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 15vh;
+    width: 250px;
+    height: 250px;
+    z-index: 10;
+    @include respond(tablet) {
+      height: 150px;
+      margin-left: 25%;
+      margin-top: 35vh;
+    }
+    @include respond(phone) {
+      height: 120px;
+      margin-left: 15%;
+      margin-top: 50vh;
+    }
+    #logo_Contactme,
+    #logoGDSC_logo_Contactme {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin: 10px;
+      @include respond(phone) {
+        width: 50%;
+      }
+    }
+  }
+  .background_Contactme {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+    #background_Contactme {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

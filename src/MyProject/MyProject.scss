@@ -1,0 +1,141 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  @if $breakpoint == desktop {
+    @media (min-width: 1025px) {
+      @content;
+    }
+  }
+}
+.MyProject {
+  .content_title_MyProject {
+    display: flex;
+    justify-content: center;
+    #title_MyProject {
+      margin-top: 150px;
+      font-size: 40px;
+      font-weight: bold;
+      color: var(--text_title);
+      font-family: Arial;
+      font-size: 40px;
+      align-items: center;
+      width: fit-content;
+      @include respond(phone){
+        margin-top: 50px;
+      }
+    }
+  }
+  .direction {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .direction button {
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #5c717f44;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    margin: 0 10px;
+  }
+  .direction button:hover {
+    background-color: #5c717f;
+  }
+  .FormList_Item {
+    margin-left: 10px;
+    #FormList {
+      width: 1280px;
+      max-width: 100%;
+      overflow: auto;
+      margin: 30px auto;
+      scroll-behavior: smooth;
+      scroll-snap-type: both;
+      #list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        .item {
+          width: 300px;
+          height: 340px;
+          background-color: var(--bg_item_project);
+          box-shadow: var(--box_shadow_item);
+          position: relative;
+          cursor: pointer;
+          border-radius: 15px;
+          overflow: hidden;
+          transition: 0.5s;
+          margin: 10px;
+          scroll-snap-align: start;
+          @include respond(tablet) {
+            width: calc(33.3vw - 20px);
+          }
+          @include respond(phone) {
+            width: calc(50vw - 20px);
+          }
+          .title_Content{
+            position: absolute;
+            left: 30px;
+            top:30px;
+            color: var(--text_primary);
+          }
+          .content {
+            position: absolute;
+            width: 300px;
+            height: 400px;
+            @include respond(tablet) {
+              width: calc(33.3vw - 20px);
+            }
+            @include respond(phone) {
+              width: calc(50vw - 20px);
+            }
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            font-family: "Quicksand", sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.5s;
+            .name_Content {
+              font-size: 1.5em;
+              font-weight: bold;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+          }
+          .content__blur {
+            backdrop-filter: blur(2px);
+          }
+          .content > * {
+            transform: translateY(40px);
+            transition: transform 0.5s;
+          }
+          .content:hover {
+            opacity: 1;
+          }
+          .content:hover > * {
+            transform: translateY(-35px);
+          }
+          .content:hover .name_Content {
+            color: #cead91;
+          }
+        }
+      }
+    }
+  }
+  #FormList::-webkit-scrollbar {
+    display: none;
+  }
+}
