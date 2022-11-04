@@ -12,7 +12,7 @@ function Timeline(props) {
             </div>
             <VerticalTimeline>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work work1"
                     contentArrowStyle={{ borderRight: '7px solid #593E67' }}
                     date="2021 - 2025"
                     iconStyle={{ background: '#593E67' }}
@@ -25,7 +25,7 @@ function Timeline(props) {
                     <p>- Completed my studies with a GPA &#62; 3.2</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
+                    className="vertical-timeline-element--work work2"
                     date="2022 - 2025"
                     contentArrowStyle={{ borderRight: '7px solid #84495F' }}
                     iconStyle={{ background: '#84495F' }}
@@ -36,7 +36,7 @@ function Timeline(props) {
                     <p> - Expand relationship, improve yourself from professional recommendations opportunity to test ideas.</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education education1"
                     date="2025"
                     contentArrowStyle={{ borderRight: '7px solid #B85B56' }}
                     iconStyle={{ background: '#B85B56' }}
@@ -58,7 +58,7 @@ function Timeline(props) {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    className="vertical-timeline-element--education"
+                    className="vertical-timeline-element--education education2"
                     date=" > 2025"
                     contentArrowStyle={{ borderRight: '7px solid #DE741C' }}
                     iconStyle={{ background: '#DE741C' }}

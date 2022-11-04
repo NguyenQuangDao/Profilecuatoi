@@ -16,13 +16,26 @@
   }
 }
 #Title {
+  user-select: none;
+  .title_introduce {
+    width: 75vw;
+    height: min-content;
+    margin: 0 auto;
+    padding: 100px 0;
+    border-radius: 40px;
+    box-shadow: var(--box_shadow_title_introduce);
+    background-color: var(--background_title_introduce);
+    margin-top: 70px;
+    @include respond(phone) {
+      padding: 60px 0 30px 0;
+    }
+  }
   .Intro {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
     margin-right: 5%;
-    color: var( --text_primary);
+    color: var(--text_primary);
     .Intro_name {
       @include respond(tablet) {
         font-size: 50px;
@@ -99,7 +112,7 @@
       width: 280px;
       height: 280px;
       border: 1px solid var(--bg_card);
-      box-shadow:var(--box_shadow_card) ;
+      box-shadow: var(--box_shadow_card);
       @include respond(phone) {
         width: 180px;
         height: 150px;
@@ -115,7 +128,7 @@
       max-width: 60%;
       margin: 50px 0 0 0;
       margin-left: 6%;
-      color: var(--text_primary) ;
+      color: var(--text_primary);
       .title_About {
         @include respond(phone) {
           font-size: 0.9rem;
@@ -127,7 +140,8 @@
         text-align: center;
         font-weight: 500;
         margin-bottom: 2rem;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
       }
     }
     .Experience {
@@ -189,7 +203,7 @@
       padding: 10px 15px;
       color: #ffffff;
       border: none;
-      #download_icon{
+      #download_icon {
         margin-left: 10px;
       }
     }

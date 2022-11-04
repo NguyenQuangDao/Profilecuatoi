@@ -16,6 +16,7 @@
   }
 }
 .MyProject {
+  user-select: none;
   .content_title_MyProject {
     display: flex;
     justify-content: center;
@@ -28,7 +29,7 @@
       font-size: 40px;
       align-items: center;
       width: fit-content;
-      @include respond(phone){
+      @include respond(phone) {
         margin-top: 50px;
       }
     }
@@ -84,11 +85,17 @@
           @include respond(phone) {
             width: calc(50vw - 20px);
           }
-          .title_Content{
+          .title_Content {
             position: absolute;
-            left: 30px;
-            top:30px;
+            left: 35%;
+            @include respond(phone) {
+              left: 30%;
+            }
+            top: 45%;
+            font-size: large;
+            font-weight: bold;
             color: var(--text_primary);
+            margin: 0 auto;
           }
           .content {
             position: absolute;
@@ -110,16 +117,33 @@
             opacity: 0;
             transition: opacity 0.5s;
             .name_Content {
-              font-size: 1.5em;
+              margin-top: 120px;
+              font-size: 2.2em;
               font-weight: bold;
               font-family: Arial, Helvetica, sans-serif;
+              @include respond(phone){
+              font-size: 1.8em;
+              }
+            }
+            .button_Content{
+              margin-top: 60px;
+              button{
+                padding: 15px 30px;
+                border-radius: 8px;
+                background-color: var(--bg_Epilogue);
+                border: none;
+                @include respond(phone){
+                  padding: 10px 20px;
+    
+                  }
+              }
             }
           }
           .content__blur {
             backdrop-filter: blur(2px);
           }
           .content > * {
-            transform: translateY(40px);
+            transform: translateY(30px);
             transition: transform 0.5s;
           }
           .content:hover {

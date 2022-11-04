@@ -15,7 +15,8 @@
     }
   }
 }
-.Skill {
+#Skill {
+  user-select: none;
   .Skill_title {
     display: flex;
     justify-content: center;

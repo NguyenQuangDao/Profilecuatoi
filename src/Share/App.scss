@@ -8,6 +8,9 @@
 [data-theme="dark"] {
   --hover_nav: #6c5dd3;
   --background: #181818;
+  --background_title_introduce: #222222;
+  --box_shadow_title_introduce: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px,
+    rgba(0, 0, 0, 0.23) 0px 3px 6px 0px;
   --text_primary: #b4bcbd;
   --text_title: #6c5dd3;
   --bg_nav: #181818;
@@ -21,11 +24,15 @@
   --bg_item_project: #101010;
   --box_shadow_item: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  --bg_Epilogue: #25252F;
+  --bg_Epilogue: #25252f;
 }
 [data-theme="light"] {
   --hover_nav: #d6e8ee;
   --background: #eef0f5;
+  --background_title_introduce: #eef0f5;
+  --box_shadow_title_introduce: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   --text_primary: #000;
   --text_title: #183153;
   --bg_nav: #f3f1f0;
@@ -36,7 +43,7 @@
   --box_shadow_card: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
     rgba(255, 255, 255, 0.719) -6px -2px 16px 0px;
   --bg_loading: #fff9ee;
-  --bg_item_project: #eef0f589;
+  --bg_item_project: #eef0f5;
   --box_shadow_item: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   --bg_Epilogue: #b9e1ee;

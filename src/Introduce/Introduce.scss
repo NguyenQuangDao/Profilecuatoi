@@ -102,12 +102,15 @@
     #gitHub {
       color: black;
     }
+    #linkedin{
+      color: #0a66c2;
+    }
     a:nth-child(n):hover .Icon_img {
       transform: scale(1.5);
     }
   }
   .Options_bar_active {
-    transition: 400ms ease;
+    transition: 300ms ease;
     position: fixed;
     left: 0%;
   }
