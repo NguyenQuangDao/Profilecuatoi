@@ -35,7 +35,7 @@ function Title(props) {
                                 <p><p className='text1'>Year</p> Experience</p>
                             </div>
                         </div>
-                        <div className='Complate_Potorasin animate__animated animate__bounceInDown animate__delay-3s animate__slow 3s'>
+                        <div className='Complate_Potorasin'>
                             <span>10+</span>
                             <div className="text">
                                 <p><p className='text1'>Complate</p>Potorasin</p>

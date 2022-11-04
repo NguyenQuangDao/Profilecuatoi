@@ -3,20 +3,20 @@ import './Timeline.scss';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 function Timeline(props) {
-const {darkMode} = props
+    const { darkMode } = props
     return (
         <div id="Timeline">
-                <div className="content_Timeline">Timeline</div>
+            <div className="content_Timeline">Timeline</div>
             <div className="content">
                 <div className="title_Timeline">Future Plan</div>
             </div>
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                    contentArrowStyle={{ borderRight: '7px solid #593E67' }}
                     date="2021 - 2025"
-                    iconStyle={{ background: 'rgb(33, 150, 243)' }}
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: `${darkMode? '#fff' : '#000'}` }}
+                    iconStyle={{ background: '#593E67' }}
+                    contentStyle={{ background: '#593E67', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-title">Hanoi University of Mining and Geology</h4>
                     <p className="vertical-timeline-element-subtitle">- Team Frontend developer leader GDSC clubs
@@ -27,8 +27,9 @@ const {darkMode} = props
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="2022 - 2025"
-                    iconStyle={{ background: '#8B4202' }}
-                    contentStyle={{ background: '#8B4202', color: `${darkMode? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #84495F' }}
+                    iconStyle={{ background: '#84495F' }}
+                    contentStyle={{ background: '#84495F', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-subtitle">Practice and work</h4>
                     <p> - Experiment to find the right job for you, learn, cultivate experience, skills.</p>
@@ -37,8 +38,9 @@ const {darkMode} = props
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="2025"
-                    iconStyle={{ background: 'rgb(16, 204, 82)' }}
-                    contentStyle={{ background: 'rgb(16, 204, 82)', color: `${darkMode? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #B85B56' }}
+                    iconStyle={{ background: '#B85B56' }}
+                    contentStyle={{ background: '#B85B56', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-subtitle">Become a Freelancer</h4>
                     <h5>Because I want:</h5>
@@ -58,8 +60,9 @@ const {darkMode} = props
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date=" > 2025"
-                    iconStyle={{ background: 'rgb(233, 30, 99)'}}
-                    contentStyle={{ background: 'rgb(233, 30, 99)', color: `${darkMode? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #DE741C' }}
+                    iconStyle={{ background: '#DE741C' }}
+                    contentStyle={{ background: '#DE741C', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-title">Senior Developer</h4>
                     <p>
