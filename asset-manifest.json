@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/My_blog/static/css/main.65ce1e5b.css",
+    "main.js": "/My_blog/static/js/main.ca7ce437.js",
+    "static/js/787.28cb0dcd.chunk.js": "/My_blog/static/js/787.28cb0dcd.chunk.js",
+    "static/media/bg.gif": "/My_blog/static/media/bg.24c7177860245788ab95.gif",
+    "static/media/anh-la-vang-roi-tren-cay-cau-go.jpg": "/My_blog/static/media/anh-la-vang-roi-tren-cay-cau-go.5fee0b2bee77037725f3.jpg",
+    "static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg": "/My_blog/static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.895e74dc1a02b02f7e20.jpg",
+    "static/media/avata.jpg": "/My_blog/static/media/avata.821ad0044023dd6604ae.jpg",
+    "index.html": "/My_blog/index.html",
+    "main.65ce1e5b.css.map": "/My_blog/static/css/main.65ce1e5b.css.map",
+    "main.ca7ce437.js.map": "/My_blog/static/js/main.ca7ce437.js.map",
+    "787.28cb0dcd.chunk.js.map": "/My_blog/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65ce1e5b.css",
+    "static/js/main.ca7ce437.js"
+  ]
+}
