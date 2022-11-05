@@ -20,7 +20,7 @@ function Timeline(props) {
                 >
                     <h4 className="vertical-timeline-element-title">Hanoi University of Mining and Geology</h4>
                     <p className="vertical-timeline-element-subtitle">- Team Frontend developer leader GDSC clubs
-                        (<a href="https://developers.google.com/community/gdsc" >Google Developer Student Clubs</a>)
+                        ( <a href="https://developers.google.com/community/gdsc" >Google Developer Student Clubs</a> )
                     </p>
                     <p>- Completed my studies with a GPA &#62; 3.2</p>
                 </VerticalTimelineElement>

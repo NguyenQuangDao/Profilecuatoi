@@ -2,6 +2,7 @@ import './Title.scss';
 import React, { useEffect } from 'react';
 import 'animate.css';
 import imgAvata from '../image/avata.jpg';
+import downLoadCV from '../Share/CV-frontend developer.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -51,10 +52,12 @@ function Title() {
                         </div>
                     </div>
                     <div className='downloadCV animate__animated animate__fadeIn animate__delay-3s '>
-                        <button id='downloadCV' >
+                       <a href={downLoadCV} download={downLoadCV}>
+                       <button id='downloadCV' >
                             DownLoad CV
                             <FontAwesomeIcon id='download_icon' icon="fa-solid fa-download" />
                         </button>
+                       </a>
                     </div>
                 </div>
             </div>
