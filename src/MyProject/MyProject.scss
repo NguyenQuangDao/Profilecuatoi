@@ -38,6 +38,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    @include respond(phone){
+      display: none;
+    }
   }
   .direction button {
     font-family: cursive;

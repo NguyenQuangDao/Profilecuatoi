@@ -25,14 +25,14 @@ function Title() {
             </div>
             <div className='animate__animated animate__bounceIn animate__delay-2s animate__slow 5s' id='Title_content'><span>About Me</span></div>
             <div className='About'>
-                <div className='img_Avt'><img className='img_Avata animate__animated animate__backInLeft animate__delay-3s' src={imgAvata} /></div>
+                <div className='img_Avt'><img className='img_Avata animate__animated animate__backInLeft ' src={imgAvata} /></div>
                 <div className='titleAbout'>
                     <p className='title_About animate__animated animate__backInRight animate__delay-1s animate__slow 3s'>
                         Web developer, with extensive knowledge and years of experience,
                         working in web technologies and UI / Ux design, delivering quality work.
                     </p>
                     <div className='Experience'>
-                        <div className='Year_Experience animate__animated animate__fadeInBottomLeft animate__delay-3s '>
+                        <div className='Year_Experience animate__animated animate__fadeInBottomLeft  '>
                             <span>1+</span>
                             <div className="text">
                                 <p><p className='text1'>Year</p> Experience</p>
@@ -44,14 +44,14 @@ function Title() {
                                 <p><p className='text1'>Complate</p>Potorasin</p>
                             </div>
                         </div>
-                        <div className='Year_Achieved animate__animated animate__fadeInBottomRight  animate__delay-3s '>
+                        <div className='Year_Achieved animate__animated animate__fadeInBottomRight   '>
                             <span>3+</span>
                             <div className="text">
                                 <p><p className='text1'>Year</p>achieved</p>
                             </div>
                         </div>
                     </div>
-                    <div className='downloadCV animate__animated animate__fadeIn animate__delay-3s '>
+                    <div className='downloadCV animate__animated animate__fadeIn  '>
                        <a href={downLoadCV} download={downLoadCV}>
                        <button id='downloadCV' >
                             DownLoad CV

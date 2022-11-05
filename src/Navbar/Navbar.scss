@@ -16,6 +16,7 @@
   }
 }
 .Navbar {
+  user-select: none;
   width: 100vw;
   height: 50px;
   opacity: 0.9;
@@ -52,11 +53,11 @@
         .openNav {
           display: block;
           position: absolute;
-          left: -55px;
-          top: -50px;
+          left: -65px;
+          top: -60px;
           width: 30px;
           height: 30px;
-          padding: 10px;
+          padding: 20px;
           span {
             display: block;
             background-color: var(--text_nav);
