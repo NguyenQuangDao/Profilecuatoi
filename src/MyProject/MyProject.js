@@ -22,8 +22,8 @@ function MyProject(props) {
                         <div id='list'>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
-                                    
+                                    <span className='title_Content'>Click me!</span>
+
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 1
@@ -34,7 +34,7 @@ function MyProject(props) {
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 2
@@ -45,7 +45,7 @@ function MyProject(props) {
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 3
@@ -56,7 +56,7 @@ function MyProject(props) {
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 4
@@ -67,31 +67,34 @@ function MyProject(props) {
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 5
                                         </div>
+                                        <a href='' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 6
                                         </div>
+                                        <a href='' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
                             <a>
                                 <div className='item'>
-                                   <span className='title_Content'>Click me!</span> 
+                                    <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
                                             Project 7
                                         </div>
+                                        <a href='' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
