@@ -41,13 +41,21 @@
       #openNav {
         display: none;
       }
+    
       @include respond(phone) {
+        .NavBar_phone{
+          color: #464545;
+          position: absolute;
+          z-index: 10;
+          font-size: 100px;
+        }
         display: block;
         position: fixed;
         right: -80%;
         top: 0;
         top: 50px;
         width: 80vw;
+        border-radius: 0 0 0px 30px;
         background-color: var(--bg_nav_phone);
         transition: 0.4s;
         .openNav {
@@ -83,7 +91,6 @@
         }
       }
     }
-
     .title_profile:has(input[name="openNav"]:checked) {
       right: 0;
     }

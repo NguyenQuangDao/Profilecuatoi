@@ -2,14 +2,14 @@ import './Navbar.scss';
 import React, { useState } from 'react';
 import 'animate.css';
 import '../Share/App.scss'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { fas } from '@fortawesome/free-solid-svg-icons'
-// import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
-// library.add(fas, faTwitter, faFontAwesome)
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFontAwesome } from '@fortawesome/free-brands-svg-icons'
+library.add(fas, faTwitter, faFontAwesome)
 
 function Navbar(props) {
-const {setDarkMode, darkMode} = props
+  const { setDarkMode, darkMode } = props;
   const handleDarkMode = () => {
     setDarkMode(!darkMode)
   }
@@ -19,7 +19,7 @@ const {setDarkMode, darkMode} = props
         <div className='Name_profile'>
           <a href="#Title">
             <div className='title_Nav'>
-            <h2>My information</h2>
+              <h2>My information</h2>
             </div>
           </a>
           <div className=' title_profile'>
@@ -29,6 +29,8 @@ const {setDarkMode, darkMode} = props
               <span></span>
               <span></span>
             </label>
+
+
             <a href="#Title">
               <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='About' >About</p>
             </a>
