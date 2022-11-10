@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.575df748.css",
-    "main.js": "./static/js/main.6fcd72f1.js",
+    "main.css": "./static/css/main.640ac442.css",
+    "main.js": "./static/js/main.8bde1738.js",
     "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
     "static/media/bg.gif": "./static/media/bg.24c7177860245788ab95.gif",
     "static/media/anh-la-vang-roi-tren-cay-cau-go.jpg": "./static/media/anh-la-vang-roi-tren-cay-cau-go.5fee0b2bee77037725f3.jpg",
@@ -9,12 +9,12 @@
     "static/media/avata.jpg": "./static/media/avata.821ad0044023dd6604ae.jpg",
     "static/media/CV-frontend developer.pdf": "./static/media/CV-frontend developer.956ac42a8b8662f6c053.pdf",
     "index.html": "./index.html",
-    "main.575df748.css.map": "./static/css/main.575df748.css.map",
-    "main.6fcd72f1.js.map": "./static/js/main.6fcd72f1.js.map",
+    "main.640ac442.css.map": "./static/css/main.640ac442.css.map",
+    "main.8bde1738.js.map": "./static/js/main.8bde1738.js.map",
     "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.575df748.css",
-    "static/js/main.6fcd72f1.js"
+    "static/css/main.640ac442.css",
+    "static/js/main.8bde1738.js"
   ]
 }
