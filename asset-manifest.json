@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "./static/css/main.f5437bd2.css",
-    "main.js": "./static/js/main.9cfdc743.js",
+    "main.css": "./static/css/main.f93f1965.css",
+    "main.js": "./static/js/main.e7fbbe2b.js",
     "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
     "static/media/bg.gif": "./static/media/bg.24c7177860245788ab95.gif",
-    "static/media/anh-la-vang-roi-tren-cay-cau-go.jpg": "./static/media/anh-la-vang-roi-tren-cay-cau-go.5fee0b2bee77037725f3.jpg",
     "static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg": "./static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.895e74dc1a02b02f7e20.jpg",
     "static/media/avata.jpg": "./static/media/avata.821ad0044023dd6604ae.jpg",
+    "static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.jpg": "./static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.43725cbd4c04cd07a92c.jpg",
     "static/media/CV-frontend developer.pdf": "./static/media/CV-frontend developer.956ac42a8b8662f6c053.pdf",
     "index.html": "./index.html",
-    "main.f5437bd2.css.map": "./static/css/main.f5437bd2.css.map",
-    "main.9cfdc743.js.map": "./static/js/main.9cfdc743.js.map",
+    "main.f93f1965.css.map": "./static/css/main.f93f1965.css.map",
+    "main.e7fbbe2b.js.map": "./static/js/main.e7fbbe2b.js.map",
     "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5437bd2.css",
-    "static/js/main.9cfdc743.js"
+    "static/css/main.f93f1965.css",
+    "static/js/main.e7fbbe2b.js"
   ]
 }
