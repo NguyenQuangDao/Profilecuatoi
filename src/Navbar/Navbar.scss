@@ -35,46 +35,48 @@
     display: flex;
     line-height: 50px;
 
+    #icon_bar,
+    .icon_close {
+      display: none;
+    }
+    @include respond(phone) {
+      #icon_bar {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        right: 5px;
+        top: -10px;
+        .bar_icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+      #icon_close {
+        display: none;
+        padding: 10px;
+        position: absolute;
+        right: 5px;
+        top: -10px;
+        .close_icon {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
     .title_profile {
       display: flex;
       justify-content: flex-start;
-      #openNav {
-        display: none;
-      }
-    
-      @include respond(phone) {
-        .NavBar_phone{
-          color: #464545;
-          position: absolute;
-          z-index: 10;
-          font-size: 100px;
-        }
-        display: block;
-        position: fixed;
-        right: -80%;
-        top: 0;
-        top: 50px;
-        width: 80vw;
-        border-radius: 0 0 0px 30px;
-        background-color: var(--bg_nav_phone);
-        transition: 0.4s;
-        .openNav {
-          display: block;
-          position: absolute;
-          left: -65px;
-          top: -60px;
-          width: 30px;
-          height: 30px;
-          padding: 20px;
-          span {
-            display: block;
-            background-color: var(--text_nav);
-            width: 30px;
-            height: 5px;
-            margin: 5px 0;
-            transition: 1s;
-          }
-        }
+      display: block;
+      position: fixed;
+      right: -80%;
+      top: 0;
+      top: 50px;
+      width: 80vw;
+      border-radius: 0 0 0px 30px;
+      background-color: var(--bg_nav_phone);
+      transition: 0.4s;
+      .openNav {
+        left: 80%;
       }
       a {
         text-decoration: none;
@@ -90,28 +92,6 @@
           }
         }
       }
-    }
-    .title_profile:has(input[name="openNav"]:checked) {
-      right: 0;
-    }
-    .title_profile:has(input[name="openNav"]:checked) .openNav {
-      left: 80%;
-    }
-    .title_profile:has(input[name="openNav"]:checked)
-      .openNav
-      span:nth-child(3) {
-      opacity: 0;
-      transition: 0s;
-    }
-    .title_profile:has(input[name="openNav"]:checked)
-      .openNav
-      span:nth-child(2) {
-      transform: rotate(45deg) translate(-2px, -5px);
-    }
-    .title_profile:has(input[name="openNav"]:checked)
-      .openNav
-      span:nth-child(1) {
-      transform: rotate(-45deg) translate(-2px, 5px);
     }
   }
 

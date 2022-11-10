@@ -13,24 +13,38 @@ function Navbar(props) {
   const handleDarkMode = () => {
     setDarkMode(!darkMode)
   }
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+    })
+  }
+
+  const DropMenu = () => {
+    document.querySelector('.title_profile').style.right = '0%';
+    document.getElementById('icon_bar').style.display = 'none';
+    document.getElementById('icon_close').style.display = 'block'
+
+  }
+  const CloseMenu = () => {
+    document.querySelector('.title_profile').style.right = '-100%';
+    document.getElementById('icon_bar').style.display = 'block';
+    document.getElementById('icon_close').style.display = 'none'
+  }
   return (
     <div className='My_blog'>
       <div className='Navbar'>
         <div className='Name_profile'>
-          <a href="#Title">
-            <div className='title_Nav'>
-              <h2>My information</h2>
-            </div>
-          </a>
+          <div className='title_Nav' onClick={scrollTop}>
+            <h2>My information</h2>
+          </div>
+          <div id='icon_bar' onClick={DropMenu}>
+            <FontAwesomeIcon icon="fa-solid fa-bars" class='bar_icon' />
+          </div>
+          <div id='icon_close' onClick={CloseMenu}>
+            <FontAwesomeIcon icon="fa-solid fa-xmark" class='close_icon' />
+          </div>
+
           <div className=' title_profile'>
-            <input type='checkbox' name='openNav' id='openNav' />
-            <label htmlFor="openNav" className='openNav'>
-              <span></span>
-              <span></span>
-              <span></span>
-            </label>
-
-
             <a href="#Title">
               <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='About' >About</p>
             </a>
