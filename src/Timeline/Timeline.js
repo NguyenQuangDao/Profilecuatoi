@@ -13,10 +13,10 @@ function Timeline(props) {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work work1"
-                    contentArrowStyle={{ borderRight: '7px solid #593E67' }}
+                    contentArrowStyle={{ borderRight: '7px solid #593E6763' }}
                     date="2021 - 2025"
-                    iconStyle={{ background: '#593E67' }}
-                    contentStyle={{ background: '#593E67', color: `${darkMode ? '#fff' : '#000'}` }}
+                    iconStyle={{ background: '#593E6763' }}
+                    contentStyle={{ background: '#593E6763', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-title">Hanoi University of Mining and Geology</h4>
                     <p className="vertical-timeline-element-subtitle">- Team Frontend developer leader GDSC clubs
@@ -27,9 +27,9 @@ function Timeline(props) {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work work2"
                     date="2022 - 2025"
-                    contentArrowStyle={{ borderRight: '7px solid #84495F' }}
-                    iconStyle={{ background: '#84495F' }}
-                    contentStyle={{ background: '#84495F', color: `${darkMode ? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #84495F63' }}
+                    iconStyle={{ background: '#84495F63' }}
+                    contentStyle={{ background: '#84495F63', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-subtitle">Practice and work</h4>
                     <p> - Experiment to find the right job for you, learn, cultivate experience, skills.</p>
@@ -38,9 +38,9 @@ function Timeline(props) {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education education1"
                     date="2025"
-                    contentArrowStyle={{ borderRight: '7px solid #B85B56' }}
-                    iconStyle={{ background: '#B85B56' }}
-                    contentStyle={{ background: '#B85B56', color: `${darkMode ? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #B85B5663' }}
+                    iconStyle={{ background: '#B85B5663' }}
+                    contentStyle={{ background: '#B85B5663', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-subtitle">Become a Freelancer</h4>
                     <h5>Because I want:</h5>
@@ -60,9 +60,9 @@ function Timeline(props) {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education education2"
                     date=" > 2025"
-                    contentArrowStyle={{ borderRight: '7px solid #DE741C' }}
-                    iconStyle={{ background: '#DE741C' }}
-                    contentStyle={{ background: '#DE741C', color: `${darkMode ? '#fff' : '#000'}` }}
+                    contentArrowStyle={{ borderRight: '7px solid #FED9B763' }}
+                    iconStyle={{ background: '#FED9B763' }}
+                    contentStyle={{ background: '#FED9B763', color: `${darkMode ? '#fff' : '#000'}` }}
                 >
                     <h4 className="vertical-timeline-element-title">Senior Developer</h4>
                     <p>

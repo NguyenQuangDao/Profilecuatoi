@@ -23,7 +23,7 @@
   background-color: var(--bg_nav);
   position: fixed;
   top: 0;
-  z-index: 100000;
+  z-index: 1000;
   box-shadow: 0 0 15px #464545;
   border-bottom: 1px solid #ccc;
   .Name_profile {
@@ -35,20 +35,21 @@
     display: flex;
     line-height: 50px;
 
-    #icon_bar,
-    .icon_close {
+    .bar_icon,
+    .close_icon {
       display: none;
     }
     @include respond(phone) {
       #icon_bar {
-        display: block;
         padding: 10px;
         position: absolute;
         right: 5px;
-        top: -10px;
+        top: -3px;
         .bar_icon {
+          display: block;
           width: 30px;
           height: 30px;
+          color: var(--text_primary);
         }
       }
       #icon_close {
@@ -56,27 +57,27 @@
         padding: 10px;
         position: absolute;
         right: 5px;
-        top: -10px;
+        top: -3px;
         .close_icon {
+          display: block;
           width: 30px;
           height: 30px;
+          color: var(--text_primary);
         }
       }
     }
     .title_profile {
       display: flex;
       justify-content: flex-start;
-      display: block;
-      position: fixed;
-      right: -80%;
-      top: 0;
       top: 50px;
       width: 80vw;
       border-radius: 0 0 0px 30px;
-      background-color: var(--bg_nav_phone);
       transition: 0.4s;
-      .openNav {
-        left: 80%;
+      @include respond(phone){
+        display: block;
+        position: fixed;
+        right: -80%;
+        background-color: var(--bg_nav_phone);
       }
       a {
         text-decoration: none;

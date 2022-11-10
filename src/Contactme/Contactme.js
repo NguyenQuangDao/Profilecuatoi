@@ -1,6 +1,6 @@
 import React from "react";
 import './Contactme.scss';
-import backGround_Contactme from '../image/anh-la-vang-roi-tren-cay-cau-go.jpg';
+import backGround_Contactme from '../image/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.jpg';
 import logoSchool from '../image/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg'
 import logoGDSC from '../image/bg.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

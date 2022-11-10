@@ -16,7 +16,8 @@ function Navbar(props) {
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
-    })
+      behavior: 'smooth',
+    });
     CloseMenu()
   }
 
@@ -29,7 +30,7 @@ function Navbar(props) {
   const CloseMenu = () => {
     document.querySelector('.title_profile').style.right = '-100%';
     document.getElementById('icon_bar').style.display = 'block';
-    document.getElementById('icon_close').style.display = 'none'
+    document.getElementById('icon_close').style.display = 'none';
   }
   return (
     <div className='My_blog'>
@@ -39,10 +40,10 @@ function Navbar(props) {
             <h2>My information</h2>
           </div>
           <div id='icon_bar' onClick={DropMenu}>
-            <FontAwesomeIcon icon="fa-solid fa-bars" class='bar_icon' />
+            <FontAwesomeIcon icon="fa-solid fa-bars" className='bar_icon' />
           </div>
           <div id='icon_close' onClick={CloseMenu}>
-            <FontAwesomeIcon icon="fa-solid fa-xmark" class='close_icon' />
+            <FontAwesomeIcon icon="fa-solid fa-xmark" className='close_icon' />
           </div>
 
           <div className=' title_profile'>

@@ -18,16 +18,17 @@
 #Title {
   user-select: none;
   .title_introduce {
-    width: 75vw;
+    width: 65vw;
     height: min-content;
     margin: 0 auto;
     padding: 100px 0;
     border-radius: 40px;
     box-shadow: var(--box_shadow_title_introduce);
     background-color: var(--background_title_introduce);
-    margin-top: 70px;
+    margin-top: 100px;
     @include respond(phone) {
       padding: 60px 0 30px 0;
+      width: 70vw;
     }
   }
   .Intro {
