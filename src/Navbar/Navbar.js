@@ -17,6 +17,7 @@ function Navbar(props) {
     window.scrollTo({
       top: 0,
     })
+    CloseMenu()
   }
 
   const DropMenu = () => {
@@ -46,19 +47,19 @@ function Navbar(props) {
 
           <div className=' title_profile'>
             <a href="#Title">
-              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='About' >About</p>
+              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' onClick={CloseMenu} name='About' >About</p>
             </a>
             <a href="#Skill">
-              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='Skill' >Skill</p>
+              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' onClick={CloseMenu} name='Skill' >Skill</p>
             </a>
             <a href="#MyProject">
-              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='Project' >Project</p>
+              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' onClick={CloseMenu} name='Project' >Project</p>
             </a>
             <a href="#Timeline">
-              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='Services' >Timeline</p>
+              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' onClick={CloseMenu} name='Services' >Timeline</p>
             </a>
             <a href="#Contactme">
-              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' name='Contactme' >Contactme</p>
+              <p className=' animate__animated animate__bounceIn animate__delay-1s animate__slow ' onClick={CloseMenu} name='Contactme' >Contactme</p>
             </a>
             {/* dark mode */}
             <div className='Dark_light'>
