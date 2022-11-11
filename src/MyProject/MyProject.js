@@ -1,7 +1,6 @@
 import './MyProject.scss';
 import React from 'react';
-function MyProject(props) {
-    const { darkLight } = props
+function MyProject() {
     const handleNext = () => {
         const widthItem = document.querySelector('.item').offsetWidth;
         document.getElementById('FormList').scrollLeft += widthItem
@@ -26,9 +25,9 @@ function MyProject(props) {
 
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            Project 1
+                                            ToDolist (Reactjs)
                                         </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
+                                        <a href='https://nguyenquangdao.github.io/todolist-react/' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>

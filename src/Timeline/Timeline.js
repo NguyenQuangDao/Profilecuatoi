@@ -66,7 +66,7 @@ function Timeline(props) {
                 >
                     <h4 className="vertical-timeline-element-title">Senior Developer</h4>
                     <p>
-                        - Becoming a Junior developer was my dream as a student
+                        - Becoming a Senior developer was my dream as a student
                     </p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
