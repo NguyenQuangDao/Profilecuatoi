@@ -134,6 +134,7 @@
                 padding: 10px 15px;
                 border-radius: 8px;
                 background-color: var(--bg_Epilogue);
+                color: var(--text_primary);
                 border: none;
                 @include respond(phone){
                   padding: 7px 15px;
