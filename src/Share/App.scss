@@ -7,24 +7,31 @@
 }
 
 [data-theme="dark"] {
-  --hover_nav: #6c5dd3;
-  --background: #181818;
-  --background_title_introduce: #222222;
+  --hover_nav: #000;
+  --background: linear-gradient(
+    90deg,
+    rgba(98, 99, 104, 1) 0%,
+    rgba(68, 67, 72, 1) 35%,
+    rgba(36, 32, 38, 1) 100%
+  );
+  --background_title_introduce: #25252f;
   --box_shadow_title_introduce: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px,
     rgba(0, 0, 0, 0.23) 0px 3px 6px 0px;
   --text_primary: #b4bcbd;
-  --text_title: #6c5dd3;
-  --bg_nav: #181818;
-  --bg_nav_phone: #2c3237;
-  --text_nav: #cacadd;
-  --bg_introduce: #d6e8ee;
-  --bg_card: #101010;
-  --box_shadow_card: rgba(65, 78, 90, 0.096) 6px 2px 16px 0px,
-    rgba(77, 67, 67, 0.048) -6px -2px 16px 0px;
+  --text_title: #737579;
+  --bg_nav: #21212189;
+  --bg_nav_phone: #21212189;
+  --text_nav: #fff;
+  --bg_introduce: #212121;
+  --bg_card: #25252f;
+  --box_shadow_card: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   --bg_loading: #212121;
-  --bg_item_project: #101010;
-  --box_shadow_item: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  --bg_item_project: #25252f;
+  --box_shadow_item: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   --bg_Epilogue: #25252f;
 }
 [data-theme="light"] {
@@ -40,17 +47,17 @@
   --bg_nav_phone: #d6e8ee;
   --text_nav: #71716f;
   --bg_introduce: #d6e8ee;
-  --bg_card: #eef0f5;
-  --box_shadow_card: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-    rgba(255, 255, 255, 0.719) -6px -2px 16px 0px;
+  --bg_card: #eff2f9;
+  --box_shadow_card: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   --bg_loading: #fff9ee;
   --bg_item_project: #eef0f5;
-  --box_shadow_item: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
-    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  --box_shadow_item: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   --bg_Epilogue: #b9e1ee;
 }
 #App {
-  background-color: var(--background);
   overflow-x: hidden;
   transition: 0.4s ease-out;
+  background: var(--background);
 }

@@ -22,7 +22,7 @@
     height: min-content;
     margin: 0 auto;
     padding: 100px 0;
-    border-radius: 40px;
+    border-radius: 20px;
     box-shadow: var(--box_shadow_title_introduce);
     background-color: var(--background_title_introduce);
     margin-top: 100px;
@@ -199,7 +199,7 @@
     margin: 25px 0 0 35px;
     #downloadCV {
       cursor: pointer;
-      background-color: #fc8c36;
+      background-color: #9A6C31;
       border-radius: 4px;
       padding: 10px 15px;
       color: #ffffff;
@@ -209,9 +209,9 @@
       }
     }
     #downloadCV:hover {
-      border: 2px solid #fc8c36;
+      border: 2px solid #9A6C31;
       background-color: var(--background);
-      color: #fc8c36;
+      color: #9A6C31;
     }
   }
 }

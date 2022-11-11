@@ -77,7 +77,7 @@
         display: block;
         position: fixed;
         right: -80%;
-        background-color: var(--bg_nav_phone);
+        background-color: var(--bg_nav);
       }
       a {
         text-decoration: none;
@@ -103,7 +103,7 @@
     line-height: 50px;
     border-radius: 10px 140px 140px 10px;
     box-shadow: var(--box_shadow_card);
-    background-color: var(--bg_card);
+    background-color: var(--bg_nav_phone);
     cursor: pointer;
     color: var(--text_nav);
     font-weight: bold;
@@ -131,14 +131,14 @@
       }
     }
   }
-  .Name_profile p:hover {
+  .title_profile p:hover {
     background-color: var(--hover_nav);
-    border-radius: 140px;
-    box-shadow: var(--box_shadow_item);
+    // border-radius: 140px;
+    // box-shadow: var(--box_shadow_item);
   }
   .Name_profile .title_Nav:hover {
-    background-color: var(--hover_nav);
     color: var(--text_nav);
+    background-color: var(--hover_nav);
   }
 
   // dark-mode
