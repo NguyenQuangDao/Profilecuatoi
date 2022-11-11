@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.534ac227.css",
+    "main.css": "./static/css/main.a705cdc4.css",
     "main.js": "./static/js/main.6fc8ff9c.js",
     "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
     "static/media/bg.gif": "./static/media/bg.24c7177860245788ab95.gif",
@@ -9,12 +9,12 @@
     "static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.jpg": "./static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.43725cbd4c04cd07a92c.jpg",
     "static/media/CV-frontend developer.pdf": "./static/media/CV-frontend developer.956ac42a8b8662f6c053.pdf",
     "index.html": "./index.html",
-    "main.534ac227.css.map": "./static/css/main.534ac227.css.map",
+    "main.a705cdc4.css.map": "./static/css/main.a705cdc4.css.map",
     "main.6fc8ff9c.js.map": "./static/js/main.6fc8ff9c.js.map",
     "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.534ac227.css",
+    "static/css/main.a705cdc4.css",
     "static/js/main.6fc8ff9c.js"
   ]
 }
