@@ -27,8 +27,8 @@
   }
   .address_Contactme {
     position: absolute;
-    margin: 120px 0 0 50px;
-    color: #bdb76b;
+    margin: 120px 0 0 80px;
+    color: #767853;
     z-index: 10;
     @include respond(phone) {
       margin: 50px 0 0 20px;
@@ -68,8 +68,8 @@
     }
     @include respond(phone) {
       height: 120px;
-      margin-left: 15%;
-      margin-top: 50vh;
+      margin-left: 12%;
+      margin-top: 55vh;
     }
     #logo_Contactme,
     #logoGDSC_logo_Contactme {
@@ -84,12 +84,11 @@
   }
   .background_Contactme {
     position: relative;
-    width: 100vw;
+    width: 90vw;
     height: 550px;
-    #background_Contactme {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-    }
+    margin: 0 auto;
+    background: var(--bg_card);
+    box-shadow: var(--box_shadow_card);
+    border-radius: 15px;
   }
 }
