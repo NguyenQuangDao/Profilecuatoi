@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.fb403886.css",
-    "main.js": "./static/js/main.9bd2c157.js",
+    "main.js": "./static/js/main.3902fd5a.js",
     "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
     "static/media/bg.gif": "./static/media/bg.24c7177860245788ab95.gif",
     "static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg": "./static/media/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.895e74dc1a02b02f7e20.jpg",
     "static/media/avata.jpg": "./static/media/avata.821ad0044023dd6604ae.jpg",
     "static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.jpg": "./static/media/Space-Wallpaper-hinh-nen-may-tinh-khong-gian.43725cbd4c04cd07a92c.jpg",
-    "static/media/Quang-Dao-Nguyen-TopCV.vn-131122.192014.pdf": "./static/media/Quang-Dao-Nguyen-TopCV.vn-131122.192014.3c90ced720514638a794.pdf",
+    "static/media/CV-Nguyễn-Quang-Đạo-Intern-Frontend.pdf": "./static/media/CV-Nguyễn-Quang-Đạo-Intern-Frontend.9e9acbff460e60ed3296.pdf",
     "index.html": "./index.html",
     "main.fb403886.css.map": "./static/css/main.fb403886.css.map",
-    "main.9bd2c157.js.map": "./static/js/main.9bd2c157.js.map",
+    "main.3902fd5a.js.map": "./static/js/main.3902fd5a.js.map",
     "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb403886.css",
-    "static/js/main.9bd2c157.js"
+    "static/js/main.3902fd5a.js"
   ]
 }
