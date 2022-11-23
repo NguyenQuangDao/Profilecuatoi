@@ -2,7 +2,7 @@ import './Title.scss';
 import React, { useEffect } from 'react';
 import 'animate.css';
 import imgAvata from '../image/avata.jpg';
-import downLoadCV from '../Share/CV-Nguyễn-Quang-Đạo-Intern-Frontend.pdf'
+import downLoadCV from '../Share/CV-Nguyễn-Quang-Đạo-Intern-Frontend.pdf.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
