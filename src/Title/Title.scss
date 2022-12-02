@@ -23,7 +23,7 @@
     margin: 0 auto;
     padding: 100px 0;
     border-radius: 20px;
-    box-shadow: var(--box_shadow_title_introduce);
+    box-shadow: var(--box_shadow_item);
     background-color: var(--background_title_introduce);
     margin-top: 100px;
     @include respond(phone) {
