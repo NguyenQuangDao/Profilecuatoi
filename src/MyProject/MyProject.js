@@ -25,9 +25,9 @@ function MyProject() {
 
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            ToDolist (Reactjs)
+                                           Clone Youtobe
                                         </div>
-                                        <a href='https://nguyenquangdao.github.io/todolist-react/' className='button_Content'><button>View project</button></a>
+                                        <a href='https://myyoutobe.netlify.app' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
@@ -36,9 +36,9 @@ function MyProject() {
                                     <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            Project 2
+                                          Clone Facebook
                                         </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
+                                        <a href='https://github.com/NguyenQuangDao/clone-Facebook' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
@@ -47,9 +47,9 @@ function MyProject() {
                                     <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            Project 3
+                                          Sử dụng AI nhận diện hành vi bạo lực học đường (team)
                                         </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
+                                        <a href='https://github.com/Google-Developer-Student-Club-HUMG/classguard' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
@@ -58,9 +58,9 @@ function MyProject() {
                                     <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            Project 4
+                                        Dự án Demo Bệnh Viện
                                         </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
+                                        <a href='https://github.com/NguyenQuangDao/Hospital' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
@@ -69,31 +69,9 @@ function MyProject() {
                                     <span className='title_Content'>Click me!</span>
                                     <div className='content content__blur'>
                                         <div className='name_Content'>
-                                            Project 5
+                                        Dự án quản lý đào tạo
                                         </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
-                                    </div>
-                                </div>
-                            </a>
-                            <a>
-                                <div className='item'>
-                                    <span className='title_Content'>Click me!</span>
-                                    <div className='content content__blur'>
-                                        <div className='name_Content'>
-                                            Project 6
-                                        </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
-                                    </div>
-                                </div>
-                            </a>
-                            <a>
-                                <div className='item'>
-                                    <span className='title_Content'>Click me!</span>
-                                    <div className='content content__blur'>
-                                        <div className='name_Content'>
-                                            Project 7
-                                        </div>
-                                        <a href='' className='button_Content'><button>View project</button></a>
+                                        <a href='https://github.com/NguyenQuangDao/QuanLyDaoTao' className='button_Content'><button>View project</button></a>
                                     </div>
                                 </div>
                             </a>
